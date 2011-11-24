@@ -7,5 +7,13 @@ How to add your rsa-key:
 # add your private key at your local computer:
   ssh-add your-private-key.ppk
 
+MyFAQ:
+#1 can not add my private key
+  >ssh-add my.ppk
+   Could not open a connection to your authentication agent.
+  >exec ssh-agent bash 
+  >ssh-add my.ppk
+   Enter passphrase for my.ppk:
+
 How to create a repo:
   http://help.github.com/create-a-repo/
