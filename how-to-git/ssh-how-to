@@ -1,0 +1,11 @@
+suppose you already have a RSA pair(a public and private key).
+
+How to add your rsa-key:
+
+# add your public key to the "github.com" at:
+  https://github.com/account/ssh
+# add your private key at your local computer:
+  ssh-add your-private-key.ppk
+
+How to create a repo:
+  http://help.github.com/create-a-repo/
