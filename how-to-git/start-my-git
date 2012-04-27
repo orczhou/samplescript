@@ -23,3 +23,6 @@ Importing a Subversion Repo?
       
 When you're done:
   Continue
+
+Simple way to get a clone of any git repo.
+  git clone git://github.com/orczhou/dba-tool.git
